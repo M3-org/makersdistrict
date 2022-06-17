@@ -1,24 +1,22 @@
 <html>
 <body>
-<script src="https://web.janusxr.org/1.5.42/janusweb.js"/>
-<janus-viewer>
-<Assets>
-<AssetImage id="sky_down" src="skybox/down.jpg" tex_clamp="true"/>
-<AssetImage id="sky_right" src="skybox/right.jpg" tex_clamp="true"/>
-<AssetImage id="sky_front" src="skybox/front.jpg" tex_clamp="true"/>
-<AssetImage id="sky_back" src="skybox/back.jpg" tex_clamp="true"/>
-<AssetImage id="sky_up" src="skybox/up.jpg" tex_clamp="true"/>
-<AssetImage id="sky_left" src="skybox/left.jpg" tex_clamp="true"/>
-<AssetImage id="irmap" src="skybox/irmap.dds.gz"/>
-<AssetImage id="rmap" src="skybox/rmap.dds.gz"/>
-<AssetImage id="envmap" src="skybox/envmap.jpg"/>
-<AssetObject id="desert_plane" src="desert.glb"/>
-</Assets>
-<Room cubemap_irradiance_id="irmap" cubemap_radiance_id="rmap" fog="true" fog_col="#cfc4bc" fog_end="200" fog_mode="linear" fog_start="25" pbr="true" pos="0 0 0" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" visible="false">
-<Object envmap_id="envmap" id="desert_plane" locked="true" scale="3 2 3"/>
-<Object collision_id="cube" locked="true" pos="0 -0.75 0" scale="1000 1 1000"/>
-<Light col="#d3ae94" fwd="0.2017757476307976 -0.18164045326810319 0.9624413194603559" js_id="sun" light_cone_angle="1" light_intensity="10" light_range="100" light_shadow="true" locked="true"/>
-</Room>
-</janus-viewer>
+	<script src="https://web.janusxr.org/1.5.42/janusweb.js"/>
+	<janus-viewer>
+		<Assets>
+			<AssetImage id="sky_down" src="skybox/down.jpg" tex_clamp="true"/>
+			<AssetImage id="sky_right" src="skybox/right.jpg" tex_clamp="true"/>
+			<AssetImage id="sky_front" src="skybox/front.jpg" tex_clamp="true"/>
+			<AssetImage id="sky_back" src="skybox/back.jpg" tex_clamp="true"/>
+			<AssetImage id="sky_up" src="skybox/up.jpg" tex_clamp="true"/>
+			<AssetImage id="sky_left" src="skybox/left.jpg" tex_clamp="true"/>
+			<AssetImage id="envmap" src="skybox/envmap.jpg"/>
+			<AssetObject id="desert_plane" src="desert.glb"/>
+		</Assets>
+		<Room fog="true" fog_col="#cfc4bc" fog_end="200" fog_mode="linear" fog_start="25" pbr="true" pos="0 0 0" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" visible="false">
+			<Object envmap_id="envmap" id="desert_plane" locked="true" scale="3 2 3"/>
+			<Object collision_id="cube" locked="true" pos="0 -0.75 0" scale="1000 1 1000"/>
+			<Light light_intensity="10" light_range="120" light_shadow="true" pos="15 30 10"/>
+		</Room>
+	</janus-viewer>
 </body>
 </html>
