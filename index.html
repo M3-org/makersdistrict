@@ -10,12 +10,15 @@
 			<AssetImage id="sky_up" src="skybox/up.jpg" tex_clamp="true"/>
 			<AssetImage id="sky_left" src="skybox/left.jpg" tex_clamp="true"/>
 			<AssetImage id="envmap" src="skybox/envmap.jpg"/>
+			<AssetSound auto_play="true" id="ambient" src="windy.mp3" />
 			<AssetObject id="desert_plane" src="desert.glb"/>
 		</Assets>
-		<Room fog="true" fog_col="#cfc4bc" fog_end="200" fog_mode="linear" fog_start="25" pbr="true" pos="0 0 0" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" visible="false">
+		<Room fog="true" fog_col="#d1bb84" fog_end="200" fog_mode="linear" fog_start="25" ambient="0.5 0.5 0.5" shadows="true" pbr="true" pos="0 0 0" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" visible="false">
 			<Object envmap_id="envmap" id="desert_plane" locked="true" scale="3 2 3"/>
 			<Object collision_id="cube" locked="true" pos="0 -0.75 0" scale="1000 1 1000"/>
-			<Light light_intensity="10" light_range="120" light_shadow="true" pos="15 30 10"/>
+			<Light light_intensity="1" light_range="120" light_shadow="true" pos="15 30 10"/>
+		    <link js_id="janusportal_9" pos="-2.0427 0.2515 5.371" fwd="-0.182 0 -0.9833" zdir="-0.182 0 -0.9833" url="./openbrush.html" shader_id="defaultportal" round="true" title="openbrush" />
+			<Sound gain="0.5" id="ambient" loop="true" rect="-100 -50 100 50"/>
 		</Room>
 	</janus-viewer>
 </body>
