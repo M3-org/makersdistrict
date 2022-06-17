@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<script src="https://web.janusxr.org/1.5.42/janusweb.js"/>
+		<janus-viewer>
+			<Assets>
+				<AssetObject id="desert" src="desert.glb"/>
+				<AssetObject id="brushes" src="openbrushes.glb"/>
+			</Assets>
+			<Room use_local_asset="room_plane" visible="false" shadows="true" ambient="0.5 0.5 0.5" zdir="0 0 -1" skybox_back_id="nightskybox_back" skybox_down_id="nightskybox_down" skybox_front_id="nightskybox_front" skybox_left_id="nightskybox_left" skybox_right_id="nightskybox_right" skybox_up_id="nightskybox_up">
+				<Light light_intensity="10" light_range="120" light_shadow="true" pos="15 30 10"/>
+				<Object id="desert" pos="0 2.6 0"/>
+				<Object id="brushes" pos="0 0 -7" scale="3 3 3" rotation="0 90 0" cull_face="none"/>
+			</Room>
+		</janus-viewer>
+	</body>
+</html>
