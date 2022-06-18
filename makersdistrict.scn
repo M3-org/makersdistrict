@@ -409,7 +409,7 @@
         1,
         1
       ],
-      "start_url": "https://ipfs.webaverse.com/QmZu6mp3aH7UqvziGqzNEBLfG3bWMjqZptu5mvG8rggqSA/optimizedphettawthhands.vrm",
+      "start_url": "https://m3-org.github.io/assets/booths/phetta/optimizedphettawthhands.vrm",
       "components": [
         {
           "key": "npc",
@@ -482,7 +482,7 @@
         7
       ],
       "physics": true,
-      "start_url": "https://ipfs.webaverse.com/QmPrUzejF6vN2pKDqdgXfiwgjBU7RHxPu31QyEKNxgn72V/theman.glb",
+      "start_url": "https://m3-org.github.io/makersdistrict/theman.glb",
       "dynamic": false
     },
     {
@@ -545,7 +545,7 @@
         1
       ],
       "physics": true,
-      "start_url": "https://ipfs.webaverse.com/Qme5fkTeDKY9H1ZaQw8dcysfbhB6yopQsekUH27TUzB9GZ/standard.glb",
+      "start_url": "https://m3-org.github.io/assets/booths/templates/standard.glb",
       "dynamic": false
     },
     {
@@ -566,7 +566,7 @@
         1
       ],
       "physics": false,
-      "start_url": "https://ipfs.webaverse.com/QmY39P1tpK29DVVsAvvCccXdv3JFvyVE8dhuT6gomehYPL/defaultbooth.glb",
+      "start_url": "https://m3-org.github.io/assets/booths/templates/defaultbooth.glb",
       "dynamic": false
     },
     {
@@ -587,28 +587,7 @@
         0.9999999999999981
       ],
       "physics": false,
-      "start_url": "https://ipfs.webaverse.com/QmV4piPcNhSceuE2883MdNmz9KzTDm8jC94nSrngxpPCcE/Phettabooth.glb",
-      "dynamic": false
-    },
-    {
-      "position": [
-        -43.620999664206444,
-        -0.0653261797378133,
-        13.898309203402567
-      ],
-      "quaternion": [
-        0,
-        0.5141038422921399,
-        0,
-        0.8577279518241542
-      ],
-      "scale": [
-        1.0000000000000009,
-        0.9999999999999536,
-        1.0000000000000018
-      ],
-      "physics": false,
-      "start_url": "https://m3-org.github.io/assets/booths/a_presentation.glb",
+      "start_url": "https://m3-org.github.io/assets/booths/phetta/Phettabooth.glb",
       "dynamic": false
     },
     {
@@ -630,7 +609,7 @@
           "value": {
             "name": "clonex",
             "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
+            "bio": "She seems lost, or maybe just doesn't want to talk."
           }
         }
       ]
