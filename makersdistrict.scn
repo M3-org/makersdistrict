@@ -111,7 +111,7 @@
     {
       "position": [
         0,
-        0,
+        -0.1,
         0
       ],
       "scale": [
@@ -218,17 +218,27 @@
         0,
         -0.8
       ],
-      "start_url": "https://ipfs.webaverse.com/QmZSnj1exvmSbPG5WEF5bJvg9wP7BoQ31yKbcpHS5rHJ74/tubbycat_18595_avatar.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "tubby cat",
-            "voice": "Sweetie Belle",
-            "bio": "cat that is tubby, pink, devilish"
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Tubby Cat",
+        "avatarUrl": "https://ipfs.webaverse.com/QmZSnj1exvmSbPG5WEF5bJvg9wP7BoQ31yKbcpHS5rHJ74/tubbycat_18595_avatar.vrm",
+        "voice": "Cadance",
+        "bio": "Very tubby looking cat"
+      }
+    },
+    {
+      "position": [
+		7.47,
+		0,
+		-9.25
+      ],
+      "quaternion": [
+        0,
+        0.7,
+        0,
+        -0.7
+      ],
+      "start_url": "https://ipfs.webaverse.com/QmPXfyLrcLjmcZa1CDQCD1Kb1TWQ5CppUMCTVkFSRqzFtL/hovercraft_exported.glb"
     },
     {
       "position": [
@@ -242,17 +252,13 @@
         0,
         -0.11
       ],
-      "start_url": "https://m3-org.github.io/assets/booths/gm3/boomboxhead4.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "boomboxhead",
-            "voice": "Applejack",
-            "bio": "boomboxhead is an artist that paints, makes music beats, designs virtual worlds, and tools for virtual productions that aim to accelerate Hollywoods decentralization."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Boomboxhead",
+        "avatarUrl": "https://ipfs.webaverse.com/QmZSnj1exvmSbPG5WEF5bJvg9wP7BoQ31yKbcpHS5rHJ74/tubbycat_18595_avatar.vrm",
+        "voice": "Cadance",
+        "bio": "boomboxhead is an artist that paints, makes music beats, designs virtual worlds, and tools for virtual productions that aim to accelerate Hollywoods decentralization."
+      }
     },
     {
       "position": [
@@ -274,17 +280,13 @@
         0,
         -0.8
       ],
-      "start_url": "https://ipfs.webaverse.com/QmSjnq7kaziu9sWXRrZjaLeipXm2YJd6VksWVA2878gGtM/cryptovoxels.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "cvguy",
-            "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Voxel Guy",
+        "avatarUrl": "https://ipfs.webaverse.com/QmSjnq7kaziu9sWXRrZjaLeipXm2YJd6VksWVA2878gGtM/cryptovoxels.vrm",
+        "voice": "Cadance",
+        "bio": "Seems to be from a different world. Has to do something with the tall effigy that looms over the town."
+      }
     },
     {
       "position": [
@@ -298,17 +300,13 @@
         0,
         0
       ],
-      "start_url": "https://ipfs.webaverse.com/QmRdMGspCdCuLbbzEUWJaeRWoHzmnXbvGrT1GoTn3Sgm1o/shima4.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "shima",
-            "voice": "Sweetie Belle",
-            "bio": "Shima is an intelligent companion droid. It loves to go on adventures and cracking jokes. It's made in a factory but doesn't quite know where or what it's called."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Shima",
+        "avatarUrl": "https://ipfs.webaverse.com/QmRdMGspCdCuLbbzEUWJaeRWoHzmnXbvGrT1GoTn3Sgm1o/shima4.vrm",
+        "voice": "Sweetie Belle",
+        "bio": "Shima robots are intelligent droid assistants. This one looks to be waiting for its owner."
+      }
     },
     {
       "position": [
@@ -327,17 +325,13 @@
         1,
         0.999999999999797
       ],
-      "start_url": "https://ipfs.webaverse.com/QmeZMXtJHPEduezBTXSjhyWY4kUubVR77mtTpVCWy422c5/meebit2.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "meebit",
-            "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Meebit",
+        "avatarUrl": "https://ipfs.webaverse.com/QmeZMXtJHPEduezBTXSjhyWY4kUubVR77mtTpVCWy422c5/meebit2.vrm",
+        "voice": "Cadance",
+        "bio": "Meebit that looks either looks lost or his mind is in another place."
+      }
     },
     {
       "position": [
@@ -356,17 +350,13 @@
         1,
         0.9999999999999667
       ],
-      "start_url": "https://ipfs.webaverse.com/QmZ67qPD9PGLbJMNFvE8JDgKWpnZuZgvk3So19kmdh1HBt/jerec.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "Sith",
-            "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Sith",
+        "avatarUrl": "https://ipfs.webaverse.com/QmZ67qPD9PGLbJMNFvE8JDgKWpnZuZgvk3So19kmdh1HBt/jerec.vrm",
+        "voice": "Shining Armor",
+        "bio": "He goes by SM Sith Lord, a local-first metaverse guru. He understands hyperlinks like the back of his head."
+      }
     },
     {
       "position": [
@@ -380,17 +370,13 @@
         0,
         -0.7
       ],
-      "start_url": "https://ipfs.webaverse.com/QmWAnzVNffp4bzhJeKKWVeZuaG613FXecx7kT6hcXM3r5c/cv_jin.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "jin",
-            "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "voxel jin",
+        "avatarUrl": "https://ipfs.webaverse.com/QmWAnzVNffp4bzhJeKKWVeZuaG613FXecx7kT6hcXM3r5c/cv_jin.vrm",
+        "voice": "Maud Pie",
+        "bio": "Mannequin that seems to come from a different world. He's wearing glasses and has two katanas."
+      }
     },
     {
       "position": [
@@ -409,17 +395,13 @@
         1,
         1
       ],
-      "start_url": "https://m3-org.github.io/assets/booths/phetta/optimizedphettawthhands.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "phetta",
-            "voice": "Sweetie Belle",
-            "bio": "Her nickname is Scilly or SLY.13 / F drop hunter.She is an adventurer, swordfighter and fan of potions.She is exceptionally skilled and can go Super Saiyan."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "Phetta",
+        "avatarUrl": "https://m3-org.github.io/assets/booths/phetta/optimizedphettawthhands.vrm",
+        "voice": "Sweetie Belle",
+        "bio": "He goes by Phetta and although a bit shy seems like an extremely creative and curious explorer."
+      }
     },
     {
       "position": [
@@ -602,17 +584,13 @@
         0,
         0.10977439742783815
       ],
-      "start_url": "https://ipfs.webaverse.com/QmX7KJMJTNgFT65T9YyWa58fWRUR7xoYNg9FaF7g4jTb38/clonex.vrm",
-      "components": [
-        {
-          "key": "npc",
-          "value": {
-            "name": "clonex",
-            "voice": "Sweetie Belle",
-            "bio": "She seems lost, or maybe just doesn't want to talk."
-          }
-        }
-      ]
+      "type": "application/npc",
+      "content": {
+        "name": "CloneX",
+        "avatarUrl": "https://ipfs.webaverse.com/QmX7KJMJTNgFT65T9YyWa58fWRUR7xoYNg9FaF7g4jTb38/clonex.vrm",
+        "voice": "Sweetie Belle",
+        "bio": "CloneX model that seems lost"
+      }
     }
   ]
 }
